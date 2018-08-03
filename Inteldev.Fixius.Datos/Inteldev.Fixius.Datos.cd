@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inteldev.Fixius.Datos.ContextoGenerico">
+    <Position X="10.25" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>F2NgABAmEp0AgJkogANChgBAuhrIYgJEcZBfEgGNxAE=</HashCode>
+      <FileName>ContextoGenerico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.ContextoInicial" BaseTypeListCollapsed="true">
+    <Position X="13" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAAAAAAAAAAAAEIIAAAAAAIAAAAggQ=</HashCode>
+      <FileName>ContextoInicial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.DaoFox">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoFox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.DaoFoxPrueba">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoFoxPrueba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.DaoFoxPruebaMayorista">
+    <Position X="5.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoFoxPruebaMayorista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.DaoFoxReal">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoFoxReal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Datos.Inteldev.Fixius.Datos.DaoFoxRealMayorista">
+    <Position X="8" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaoFoxRealMayorista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Datos.Dao.Dao">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Datos.DbContextBase">
+    <Position X="10.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

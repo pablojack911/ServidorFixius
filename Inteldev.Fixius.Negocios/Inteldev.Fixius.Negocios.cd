@@ -1,0 +1,1822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.BuscadorArticulo" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="35.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\BuscadorArticulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.ItemLetra" Collapsed="true">
+    <Position X="349" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Proveedores\ItemLetra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.PoneLetra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="356" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Proveedores\PoneLetra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.Creadores.CreadorArticulo">
+    <Position X="17.5" Y="41.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Creadores\CreadorArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxArticulo">
+    <Position X="52.75" Y="28.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxCaracteristica">
+    <Position X="30" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxCaracteristica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxClase">
+    <Position X="36.25" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxClase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxDivision">
+    <Position X="24.75" Y="28.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxDivision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxEmpaque">
+    <Position X="38.75" Y="28.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxEmpaque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxLinea">
+    <Position X="44" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxLinea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxMarcas">
+    <Position X="3" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxMarcas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Articulos.GrabadoresFox.GrabadorFoxRubro">
+    <Position X="41.5" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Articulos\GrabadoresFox\GrabadorFoxRubro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Bloques.BloqueArticulo">
+    <Position X="39.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Bloques\BloqueArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Bloques.BloqueComprobanteDeCompra">
+    <Position X="43" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Bloques\BloqueComprobanteDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.BuscadorDTOFamilia">
+    <Position X="5.25" Y="46.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\BuscadorDTOFamilia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.BuscadorDTOSector">
+    <Position X="16" Y="46.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\BuscadorDTOSector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.BuscadorDTOSubFamilia">
+    <Position X="19" Y="46.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\BuscadorDTOSubFamilia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.BuscadorDTOSubSector">
+    <Position X="22.25" Y="46.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\BuscadorDTOSubSector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaCodigoProveedor&lt;TEntidad&gt;">
+    <Position X="9.75" Y="16.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaCodigoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaCuitProveedor&lt;TEntidad&gt;">
+    <Position X="13.25" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaCuitProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaFechaComprobante&lt;TEntidad&gt;">
+    <Position X="29.75" Y="16.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaFechaComprobante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaIdProveedor&lt;TEntidad&gt;">
+    <Position X="33.25" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaIdProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaLetra&lt;TEntidad&gt;">
+    <Position X="1.75" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaLetra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaPorArea">
+    <Position X="4.25" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaPorArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaPorImporte&lt;TEntidad&gt;">
+    <Position X="6.75" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaPorImporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaPorRazonSocial&lt;TEntidad&gt;">
+    <Position X="16.5" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaPorRazonSocial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaPorSucursal&lt;TEntidad&gt;">
+    <Position X="19.75" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaPorSucursal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BuscaTipoDocumento&lt;TEntidad&gt;">
+    <Position X="22.75" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BuscaTipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Busquedas.Partes.BusquedaNombreProveedor&lt;TEntidad&gt;">
+    <Position X="26" Y="16.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Busquedas\Partes\BusquedaNombreProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.BuscadorRutaDeVenta" BaseTypeListCollapsed="true">
+    <Position X="11" Y="35.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\BuscadorRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.BuscadorRutaDeVentaDTO" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="46.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAIAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\BuscadorRutaDeVentaDTO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.Creadores.CreadorCliente">
+    <Position X="32.75" Y="41.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Creadores\CreadorCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.Grabadores.GrabadorCliente">
+    <Position X="40" Y="48" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Grabadores\GrabadorCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.GrabadoresFox.GrabadorFoxCliente">
+    <Position X="46.5" Y="28.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAABQgAAAAAAEgAAAAAAAAAAAABQAABg=</HashCode>
+      <FileName>Clientes\GrabadoresFox\GrababorFoxCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.GrabadoresFox.GrabadorFoxCanal">
+    <Position X="22.25" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Clientes\GrabadoresFox\GrabadorFoxCanal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.GrabadoresFox.GrabadorFoxClienteDoble" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="352.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\GrabadoresFox\GrabadorFoxClienteDoble.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.GrabadoresFox.GrabadorFoxRamo">
+    <Position X="27.5" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Clientes\GrabadoresFox\GrabadorFoxRamo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Clientes.GrabadoresFox.GrabadorFoxRutaDeVenta">
+    <Position X="49.75" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Clientes\GrabadoresFox\GrabadorFoxRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Contabilidad.BuscadorReferencia" Collapsed="true">
+    <Position X="352.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAgAAAAACIAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Contabilidad\BuscadorReferencia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Contabilidad.RegistroMapeoTasaConcepto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="349" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contabilidad\RegistroMapeoTasaConcepto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Fiscales.BuscadorTasa" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="354.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fiscales\BuscadorTasa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.GrabadorFoxCalle">
+    <Position X="14" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>GrabadorFoxCalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.GrabadorFoxLocalidad">
+    <Position X="55.5" Y="28.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>GrabadorFoxLocalidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.GrabadorFoxProvincia" Collapsed="true">
+    <Position X="354.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GrabadorFoxProvincia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.MapeadorCallesFox">
+    <Position X="51.25" Y="21" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorCallesFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.MapeadorConceptosDeMovimientoFox">
+    <Position X="59.75" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorConceptosDeMovimientoFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.MapeadorDataTable&lt;TEntidad, TDto&gt;">
+    <Position X="50.5" Y="43.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AIACEAAQEAAKAAAAgAAAADBAAAAAAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Importadores\MapeadorDataTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.MapeadorFox&lt;TEntidad&gt;">
+    <Position X="40.75" Y="14.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgBEIAQIEAAoAAQAAAIAAgAAAAYAiCIAAQAgAgAAA=</HashCode>
+      <FileName>Importadores\MapeadorFox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.MapeadorLocalidadFox">
+    <Position X="4" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorLocalidadFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.LogManager">
+    <Position X="12.25" Y="12.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAQAAAAA=</HashCode>
+      <FileName>LogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.RegistroNegocios">
+    <Position X="17.5" Y="51.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>RegistroNegocios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.ValidadorBaseDatos" Collapsed="true">
+    <Position X="350.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAABAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidadorBaseDatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.ImportadorDatos" Collapsed="true">
+    <Position X="356" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\ImportadorDatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorBancosFox">
+    <Position X="34" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorBancosFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorCanalesFox">
+    <Position X="39.75" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorCanalesFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorCaracteristicasFox">
+    <Position X="45.5" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorCaracteristicasFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorClientesFox">
+    <Position X="53.75" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorClientesFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorCobradoresFox">
+    <Position X="63.5" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorCobradoresFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorCondicionesDePagoClienteFox">
+    <Position X="69.75" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorCondicionesDePagoClienteFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorDepositosFox">
+    <Position X="76.5" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorDepositosFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorDivisionesComerciales">
+    <Position X="6.75" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorDivisionesComerciales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorEmpaquesFox">
+    <Position X="13" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorEmpaquesFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorEmpresaFox">
+    <Position X="18.75" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorEmpresaFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorEnvasesFox">
+    <Position X="24.5" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorEnvasesFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorHeredaTarjetasClienteMayoristaFox">
+    <Position X="27.25" Y="21" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorHeredaTarjetasClienteMayoristaFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorMarcasFox">
+    <Position X="31.25" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorMarcasFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorPreventistasFox">
+    <Position X="36.75" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorPreventistasFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorProveedoresFox">
+    <Position X="42.5" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorProveedoresFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorRamosFox">
+    <Position X="48.5" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorRamosFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorReferenciaContableFox">
+    <Position X="56.5" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorReferenciaContableFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorRutaVentasFox">
+    <Position X="66.5" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorRutaVentasFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorSupervisoresFox">
+    <Position X="73.5" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorSupervisoresFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorTarjetasClienteMayoristaFox">
+    <Position X="79.25" Y="21" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorTarjetasClienteMayoristaFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorTipoProveedorFox">
+    <Position X="10" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorTipoProveedorFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorTransportistasFox">
+    <Position X="15.75" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorTransportistasFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Importadores.MapeadorVendedoresFox">
+    <Position X="21.5" Y="21" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\MapeadorVendedoresFox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.GestorMenu">
+    <Position X="5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAAAAUAAAAAAAAEAAAAAAAAAAEAAQAEAAAA=</HashCode>
+      <FileName>Menu\GestorMenu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.MenuGestion">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\MenuGestion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.MenuLogistica">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\MenuLogistica.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.MenuMayorista">
+    <Position X="5.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\MenuMayorista.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.MenuPreventa">
+    <Position X="7.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\MenuPreventa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Menu.MenuRepresentaciones">
+    <Position X="9.75" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu\MenuRepresentaciones.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Organizacion.GrabadorEmpresa">
+    <Position X="36.75" Y="48" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizacion\GrabadorEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Precios.CreadorCambioDePreciosDeVenta">
+    <Position X="28" Y="41.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\CreadorCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Precios.MapeadorCambioDePreciosDeVenta" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="350.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACgAAAEAAIAAAAAAAAABBAAACEAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Precios\MapeadorCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Preventa.CreadorJefe">
+    <Position X="5.75" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\CreadorJefe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Preventa.CreadorPreventista">
+    <Position X="8.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\CreadorPreventista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Preventa.CreadorSupervisor">
+    <Position X="0.5" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\CreadorSupervisor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Preventa.GrabadorPosicionGpsPreventa">
+    <Position X="50.25" Y="15.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\GrabadorPosicionGpsPreventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorComprobante" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="35.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorComprobante.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorDetalleDevolucionMercadera" Collapsed="true">
+    <Position X="349" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorDetalleDevolucionMercadera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorDocumentoDeCompra" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="35.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorDocumentoDeCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorDTOListaDePrecios">
+    <Position X="8.25" Y="46.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAIAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorDTOListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorDTOOrdenDeCompra" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="46.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAARIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorDTOOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorLetra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="350.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorLetra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorListaDePrecios" BaseTypeListCollapsed="true">
+    <Position X="18" Y="35.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorListaDePreciosDetalle&lt;TDetalle&gt;" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="35.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAg=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorListaDePreciosDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorNotaDevolucion" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="35.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorNotaDevolucion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorObjetivos" BaseTypeListCollapsed="true">
+    <Position X="35" Y="35.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorObjetivos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorOrdenDeCompra" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="35.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorOrdenDeCompraDetalle" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="35.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAg=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorOrdenDeCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.BuscadorOrdenDePago" BaseTypeListCollapsed="true">
+    <Position X="49" Y="35.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\BuscadorOrdenDePago.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Consultadores.ConsultadorFacturaProveedor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="356" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Consultadores\ConsultadorFacturaProveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorDevolucionDeMercaderia">
+    <Position X="5.75" Y="41.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorDevolucionDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorDocumentoCompra">
+    <Position X="10.25" Y="41.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorDocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorItemCambioDePrecioDeVenta&lt;TCosto&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="349" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAIA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorItemCambioDePrecioDeVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorListaDePrecios">
+    <Position X="20.75" Y="41.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorOrdenDeCompra">
+    <Position X="36" Y="41.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Creadores.CreadorOrdenDePago">
+    <Position X="2" Y="41.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Creadores\CreadorOrdenDePago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Grabadores.GrabadorDevolucionDeMercaderia">
+    <Position X="30" Y="48" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEBAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Grabadores\GrabadorDevolucionDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Grabadores.GrabadorDocumentoCompra">
+    <Position X="33.5" Y="48" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Grabadores\GrabadorDocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Grabadores.GrabadorProveedor">
+    <Position X="26.75" Y="48" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Grabadores\GrabadorProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.GrabadoresFox.GrabadorFoxCompras">
+    <Position X="8" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAABA=</HashCode>
+      <FileName>Proveedores\GrabadoresFox\GrabadorFoxCompras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.GrabadoresFox.GrabadorFoxDocumentoCompra">
+    <Position X="33" Y="28.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Proveedores\GrabadoresFox\GrabadorFoxDocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.GrabadoresFox.GrabadorFoxProveedor">
+    <Position X="19.25" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABg=</HashCode>
+      <FileName>Proveedores\GrabadoresFox\GrabadorFoxProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.GrabadoresFox.GrabadorFoxSubCompras">
+    <Position X="58.25" Y="28.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAYQAAAAABA=</HashCode>
+      <FileName>Proveedores\GrabadoresFox\GrabadorFoxSubCompras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.GrabadoresFox.GrabadorFoxTipoProveedor">
+    <Position X="11" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Proveedores\GrabadoresFox\GrabadorFoxTipoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Mapeadores.MapeadorDevolucionDeMercaderia">
+    <Position X="51.75" Y="48.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Mapeadores\MapeadorDevolucionDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Mapeadores.MapeadorListaDePrecios" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="352.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAREAAIAAAAAAAAABBAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>Proveedores\Mapeadores\MapeadorListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Mapeadores.MapeadorOrdenDeCompra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="354.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gADCAAAREAAIAAAAAAAAABBAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>Proveedores\Mapeadores\MapeadorOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Proveedores.Mapeadores.MapeadorOrdenDePagoDataTable">
+    <Position X="44.75" Y="48.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAABBAAAAABAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Proveedores\Mapeadores\MapeadorOrdenDePagoDataTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.BuscadorFactura" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="35.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Stock\BuscadorFactura.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.BuscadorRecibo" BaseTypeListCollapsed="true">
+    <Position X="52.75" Y="35.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\BuscadorRecibo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.CreadorIngreso">
+    <Position X="14.25" Y="41.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\CreadorIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.CreadorMovimiento">
+    <Position X="24.5" Y="41.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\CreadorMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.GrabadorIngreso">
+    <Position X="47.5" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\GrabadorIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.GrabadoresFox.GrabadorFoxDeposito">
+    <Position X="16.5" Y="28.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Stock\GrabadoresFox\GrabadorFoxDeposito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.Mapeadores.MapeadorIngreso">
+    <Position X="48.5" Y="48.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\Mapeadores\MapeadorIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Stock.Mapeadores.MapeadorMovimiento">
+    <Position X="56.75" Y="48.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\Mapeadores\MapeadorMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Tesoreria.GrabadorFoxBancos">
+    <Position X="5.5" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Tesoreria\GrabadorFoxBancos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Usuarios.CreadorUsuario">
+    <Position X="3.25" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Usuarios\CreadorUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Validadores.ValidadorDivisionComercial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="352.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorDivisionComercial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Validadores.ValidadorGenerico&lt;TEntidad&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="354.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorGenerico.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Negocios.Validadores.ValidadorRutaDeVenta" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="356" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.Busquedas.BlockDeBusqueda&lt;TEntidad&gt;">
+    <Position X="40.75" Y="8.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.Busquedas.ParteBusqueda&lt;TEntidad&gt;">
+    <Position X="17.25" Y="12.5" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.BuscadorGenerico&lt;TEntidad&gt;">
+    <Position X="27.25" Y="32.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.BuscadorDTO&lt;TEntidad, TDto&gt;">
+    <Position X="11" Y="43.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.CreadorDTO&lt;TEntidad, TDto&gt;">
+    <Position X="18.75" Y="38.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.CreadorGenerico&lt;TEntidad&gt;">
+    <Position X="4.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.GrabadorGenerico&lt;TEntidad&gt;">
+    <Position X="33.25" Y="43.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.GrabadorFox&lt;TEntidad&gt;">
+    <Position X="30.25" Y="23.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Negocios.GrabadorDTO&lt;TEntidad, TDto&gt;">
+    <Position X="48.75" Y="12.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.Patrones.RegistroFabrica">
+    <Position X="16.25" Y="48.5" Width="4" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Patrones.Singleton&lt;T&gt;">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Area">
+    <Position X="58.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Articulo">
+    <Position X="84.75" Y="6.25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.ArticuloCompuesto">
+    <Position X="126.75" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Caracteristica">
+    <Position X="42.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Categoria">
+    <Position X="88.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Clase">
+    <Position X="150.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.CodigoDun">
+    <Position X="321" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.CodigoEan">
+    <Position X="330" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.DatosOldArticulo">
+    <Position X="299.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.DatosOldEnvases">
+    <Position X="332.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Division">
+    <Position X="91" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Empaque">
+    <Position X="109" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Envase">
+    <Position X="152.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Familia">
+    <Position X="164.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Grupo">
+    <Position X="45" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Jerarquia">
+    <Position X="242" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Linea">
+    <Position X="47.75" Y="6.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Marca">
+    <Position X="167" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.ObservacionArticulo">
+    <Position X="343.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Rubro">
+    <Position X="244.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Sector">
+    <Position X="60.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.SKU">
+    <Position X="93.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Subfamilia">
+    <Position X="112.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Subsector">
+    <Position X="129.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.TasasDeIva">
+    <Position X="185.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Canal">
+    <Position X="248.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.CargosDeFuerzaDeVenta">
+    <Position X="77.5" Y="6.25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Cliente">
+    <Position X="169.25" Y="6.25" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.CondicionDePagoCliente">
+    <Position X="144.75" Y="6.25" Width="4.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.ConfiguraCredito">
+    <Position X="278" Y="3.5" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldCliente">
+    <Position X="309.5" Y="3.5" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldCondicionDePagoCliente">
+    <Position X="326.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldRutaDeVenta">
+    <Position X="290.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DiasDeSemana" Collapsed="true">
+    <Position X="350.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DocumentoVenta">
+    <Position X="261.5" Y="10" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.GeoRegionDeVenta">
+    <Position X="206" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.GrupoCliente">
+    <Position X="63" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.ObservacionCliente">
+    <Position X="306.75" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Ramo">
+    <Position X="114.75" Y="6.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Region">
+    <Position X="155.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.RegionDeVenta">
+    <Position X="173.75" Y="6.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.RutaDeVenta">
+    <Position X="52" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.TarjetaClienteMayorista">
+    <Position X="161.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.TarjetaMayoristaItem">
+    <Position X="181.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.ConfiguraEmpresa" BaseTypeListCollapsed="true">
+    <Position X="177.5" Y="6.25" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Contexto">
+    <Position X="195.75" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.RelacionEmpresaEntidad">
+    <Position X="212.75" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Contabilidad.ReferenciaContable">
+    <Position X="141.25" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Financiero.ConceptoDeMovimiento">
+    <Position X="55.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Logistica.ZonaGeografica">
+    <Position X="218.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.CambioDePreciosDeVenta">
+    <Position X="238" Y="6.25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.Descuento">
+    <Position X="294" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.DescuentosPorLista">
+    <Position X="208.5" Y="6.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.Folder">
+    <Position X="187.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.HabilitaLista">
+    <Position X="95.5" Y="6.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ItemDescuentoPorLista">
+    <Position X="285" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ItemListaDePreciosDeVenta">
+    <Position X="296.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ListaDePreciosDeVenta">
+    <Position X="102" Y="6.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Cobrador">
+    <Position X="36.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.DatosOldPreventa">
+    <Position X="335.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.DetallePedido">
+    <Position X="221.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Jefe">
+    <Position X="25.25" Y="9.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Pedido">
+    <Position X="190" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.PosicionGPSPreventa">
+    <Position X="254.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Preventa">
+    <Position X="30.25" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Preventista">
+    <Position X="28.5" Y="9.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Supervisor">
+    <Position X="31.25" Y="9.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Vendedor">
+    <Position X="34.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Aplicacion">
+    <Position X="39" Y="6.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ColorColumnaPlantilla">
+    <Position X="227.5" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Columna">
+    <Position X="337.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.CondicionDePago">
+    <Position X="118.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DatosOldProveedor">
+    <Position X="282" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DevolucionDeMercaderia">
+    <Position X="257.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DevolucionDeProveedor">
+    <Position X="275.25" Y="10" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DocumentoCompra">
+    <Position X="265" Y="12.5" Width="4.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DocumentoProveedor">
+    <Position X="267.25" Y="10" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Entrega">
+    <Position X="131.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ItemsConceptos" BaseTypeListCollapsed="true">
+    <Position X="313.5" Y="3.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ListaDePrecios">
+    <Position X="65.75" Y="6.25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Motivo">
+    <Position X="193.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.NotaDeDebitoDeVenta">
+    <Position X="272.5" Y="10" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.NotaPendiente">
+    <Position X="266.25" Y="18.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Objetivos">
+    <Position X="288" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ObjetivosDeCompra">
+    <Position X="74.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ObservacionProveedor">
+    <Position X="346" Y="6.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDeCompra">
+    <Position X="157.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDeCompraDetalle">
+    <Position X="323.75" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDePago">
+    <Position X="270" Y="12.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.PlantillaListaProveedor">
+    <Position X="215.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ProntoPago">
+    <Position X="340.75" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Proveedor">
+    <Position X="69.75" Y="6.25" Width="4" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ProveedorNuevo">
+    <Position X="99.25" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ResponsablesCompras">
+    <Position X="230.25" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoProveedor">
+    <Position X="198.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Transportista">
+    <Position X="225.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ConceptoDeMovimientoDeStock">
+    <Position X="105.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.Ingreso">
+    <Position X="134" Y="6.25" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ItemNoIngresado">
+    <Position X="302.5" Y="3.5" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.Movimiento">
+    <Position X="200.75" Y="6.25" Width="4.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ReciboStock">
+    <Position X="260.75" Y="12.5" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.Banco">
+    <Position X="138" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ChequeDeTercero">
+    <Position X="121.75" Y="6.25" Width="4.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ChequePropio">
+    <Position X="317.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ConceptoDeMovimientoBancario">
+    <Position X="81.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.CuentaBancaria">
+    <Position X="250.5" Y="6.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoChequeBanco">
+    <Position X="22.5" Y="8" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoChequeTercero">
+    <Position X="21" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoProveedor">
+    <Position X="19.75" Y="8" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.MovimientoBancario">
+    <Position X="233" Y="6.25" Width="4.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.MovimientoChequeTercero">
+    <Position X="19.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.OrigenChequeTercero">
+    <Position X="16.75" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.OrigenChequeTerceroCliente">
+    <Position X="16.75" Y="8" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorArticulo">
+    <Position X="0.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorCliente">
+    <Position X="8.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorDocumentoCompra">
+    <Position X="10.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorFactura">
+    <Position X="14" Y="2.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorIngreso">
+    <Position X="3.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorProveedor">
+    <Position X="5.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.DTOMaestro">
+    <Position X="150.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.DTOBase">
+    <Position X="181.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Auditoria.Observacion">
+    <Position X="344.75" Y="3.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Validaciones.ValidadorBase&lt;TEntidad&gt;">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Documento">
+    <Position X="268" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Inteldev.Fixius.Negocios.Clientes.IBuscadorRutaDeVenta">
+    <Position X="63.75" Y="41.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\IBuscadorRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Clientes.IBuscadorRutaDeVentaDTO">
+    <Position X="21.5" Y="13.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\IBuscadorRutaDeVentaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Contabilidad.IRegistroMapeoTasaConcepto" Collapsed="true">
+    <Position X="356" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contabilidad\IRegistroMapeoTasaConcepto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Fiscales.IBuscadorTasa" Collapsed="true">
+    <Position X="356" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fiscales\IBuscadorTasa.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Importadores.IMapeadorFox&lt;TEntidad&gt;" Collapsed="true">
+    <Position X="352.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importadores\IMapeadorFox.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.IBuscadorComprobante" Collapsed="true">
+    <Position X="350.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\IBuscadorComprobante.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.IBuscadorDocumentoDeCompra" Collapsed="true">
+    <Position X="352.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\IBuscadorDocumentoDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.IBuscadorLetra" Collapsed="true">
+    <Position X="354.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\IBuscadorLetra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Buscadores.IBuscadorOrdenDePago" Collapsed="true">
+    <Position X="352.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Buscadores\IBuscadorOrdenDePago.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Consultadores.IConsultador&lt;TEntidad&gt;" Collapsed="true">
+    <Position X="349" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Consultadores\IConsultador.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscaCosto&lt;TEntidad&gt;" Collapsed="true">
+    <Position X="349" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscaCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorArticulo">
+    <Position X="46.75" Y="41.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorDTOOrdenDeCompra">
+    <Position X="25" Y="13.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorDTOOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorListaDePrecios">
+    <Position X="51.5" Y="41.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorListaDePreciosDetalle&lt;TDetalle&gt;">
+    <Position X="55.25" Y="41.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAg=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorListaDePreciosDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorNotaDevolucion" Collapsed="true">
+    <Position X="356" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorNotaDevolucion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorObjetivos" Collapsed="true">
+    <Position X="349" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorObjetivos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorOrdenDeCompra" Collapsed="true">
+    <Position X="350.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorOrdenDeCompraDetalle">
+    <Position X="41.5" Y="41.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorOrdenDeCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IBuscadorReferencia" Collapsed="true">
+    <Position X="354.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IBuscadorReferencia.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.ICreadorItemCambioDePrecioDeVenta&lt;TCosto&gt;" Collapsed="true">
+    <Position X="350.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Proveedores\Interfaces\ICreadorItemCambioDePrecioDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IMapeadorOrdenDeCompra">
+    <Position X="24.5" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IMapeadorOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Interfaces.IPoneLetra" Collapsed="true">
+    <Position X="354.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Interfaces\IPoneLetra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Proveedores.Mapeadores.IMapeadorOrdenDePago">
+    <Position X="28.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Mapeadores\IMapeadorOrdenDePago.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Stock.IBuscadorFactura">
+    <Position X="67" Y="41.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Stock\IBuscadorFactura.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Fixius.Negocios.Stock.IBuscadorRecibo">
+    <Position X="60.25" Y="41.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\IBuscadorRecibo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Inteldev.Core.Negocios.IBuscador&lt;TEntidad&gt;">
+    <Position X="53.75" Y="38.5" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inteldev.Core.Negocios.IBuscadorDTO&lt;TEntidad, TDto&gt;">
+    <Position X="23.25" Y="11.5" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Inteldev.Core.Negocios.Mapeador.IMapeadorGenerico&lt;TEntidad, TDto&gt;">
+    <Position X="26.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.EnumTasas" Collapsed="true">
+    <Position X="349" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.EstadoArticulo" Collapsed="true">
+    <Position X="350.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.UnidadDeMedida" Collapsed="true">
+    <Position X="354.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.ModoDePago" Collapsed="true">
+    <Position X="354.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.AceptaPedidos" Collapsed="true">
+    <Position X="349" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.EstadoCliente" Collapsed="true">
+    <Position X="354.25" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.TipoDocumentoCliente" Collapsed="true">
+    <Position X="356" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Fiscal.CondicionAnteIIBB" Collapsed="true">
+    <Position X="354.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Fiscal.CondicionAnteIva" Collapsed="true">
+    <Position X="356" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Precios.EstadoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="352.5" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Precios.TipoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="356" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Preventa.TipoPedido" Collapsed="true">
+    <Position X="352.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoColumna" Collapsed="true">
+    <Position X="349" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoDescuento" Collapsed="true">
+    <Position X="352.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.EstadoOrdenDeCompra" Collapsed="true">
+    <Position X="349" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.EstadoProveedor" Collapsed="true">
+    <Position X="350.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.FormaDePago" Collapsed="true">
+    <Position X="352.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.aplicableEnum" Collapsed="true">
+    <Position X="352.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoConcepto" Collapsed="true">
+    <Position X="350.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoDocumento" Collapsed="true">
+    <Position X="354.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoOrden" Collapsed="true">
+    <Position X="350.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Stock.EstadoIngresoDeMercaderia" Collapsed="true">
+    <Position X="356" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Stock.TipoMovimiento" Collapsed="true">
+    <Position X="349" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.Afecta" Collapsed="true">
+    <Position X="350.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

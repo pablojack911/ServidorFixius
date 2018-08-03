@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E326B4B1-1E8A-48F5-BCB9-C58847569200}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inteldev.Fixius.Negocios</RootNamespace>
+    <AssemblyName>Inteldev.Fixius.Negocios</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Inteldev.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core\bin\Debug\Inteldev.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.DataSwitch">
+      <HintPath>..\..\Core\Inteldev.Core.DataSwitch\bin\Debug\Inteldev.Core.DataSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Datos">
+      <HintPath>..\..\Core\Inteldev.Core.Datos\bin\Debug\Inteldev.Core.Datos.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.DTO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Servicios.DTO\bin\Debug\Inteldev.Core.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Modelo">
+      <HintPath>..\..\Core\Inteldev.Core.Modelo\bin\Debug\Inteldev.Core.Modelo.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Negocios">
+      <HintPath>..\..\Core\Inteldev.Core.Negocios\bin\Debug\Inteldev.Core.Negocios.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Datos">
+      <HintPath>..\Inteldev.Fixius.Datos\bin\Debug\Inteldev.Datos.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Fixius.DataSwitch">
+      <HintPath>..\Inteldev.Fixius.DataSwitch\bin\Debug\Inteldev.Fixius.DataSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Fixius.Modelo">
+      <HintPath>..\Inteldev.Fixius.Modelo\bin\Debug\Inteldev.Fixius.Modelo.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Fixius.Servicios.DTO">
+      <HintPath>..\Inteldev.DTOs\bin\Debug\Inteldev.Fixius.Servicios.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.0.1304.0\lib\Net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.0.1304.0\lib\Net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulos\Borradores\BorradorArticulo.cs" />
+    <Compile Include="Articulos\Borradores\BorradorEnvase.cs" />
+    <Compile Include="Articulos\Borradores\BorradorFamilia.cs" />
+    <Compile Include="Articulos\Borradores\BorradorSector.cs" />
+    <Compile Include="Articulos\Borradores\BorradorSubfamilia.cs" />
+    <Compile Include="Articulos\Borradores\BorradorSubsector.cs" />
+    <Compile Include="Articulos\Buscadores\BuscadorFamilia.cs" />
+    <Compile Include="Articulos\Buscadores\BuscadorSector.cs" />
+    <Compile Include="Articulos\Buscadores\BuscadorSubfamilia.cs" />
+    <Compile Include="Articulos\Buscadores\BuscadorSubsector.cs" />
+    <Compile Include="Articulos\Creadores\CreadorArticulo.cs" />
+    <Compile Include="Articulos\Creadores\CreadorLinea.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxArea.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxArticulo.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxCaracteristica.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxClase.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxDivision.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxEmpaque.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxEnvase.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxFamilia.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxLinea.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxMarcas.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxRubro.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxSector.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxSubfamilia.cs" />
+    <Compile Include="Articulos\Grabadores\GrabadorArticulo.cs" />
+    <Compile Include="Articulos\Grabadores\GrabadorEnvase.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorFamilia.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorLinea.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorRubro.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorSector.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorSubfamilia.cs" />
+    <Compile Include="Articulos\Numeradores\NumeradorSubsector.cs" />
+    <Compile Include="Articulos\Validadores\ValidadorFamilia.cs" />
+    <Compile Include="Articulos\Validadores\ValidadorSector.cs" />
+    <Compile Include="Articulos\Validadores\ValidadorSubfamilia.cs" />
+    <Compile Include="Articulos\Validadores\ValidadorSubsector.cs" />
+    <Compile Include="Busquedas\Bloques\BloqueArticulo.cs" />
+    <Compile Include="Busquedas\Bloques\BloqueComprobanteDeCompra.cs" />
+    <Compile Include="Busquedas\BuscadorDTOFamilia.cs" />
+    <Compile Include="Busquedas\BuscadorDTOSector.cs" />
+    <Compile Include="Busquedas\BuscadorDTOSubFamilia.cs" />
+    <Compile Include="Busquedas\BuscadorDTOSubSector.cs" />
+    <Compile Include="Busquedas\Partes\BuscaCuitProveedor.cs" />
+    <Compile Include="Busquedas\Partes\BuscaFechaComprobante.cs" />
+    <Compile Include="Busquedas\Partes\BuscaIdProveedor.cs" />
+    <Compile Include="Busquedas\Partes\BuscaLetra.cs" />
+    <Compile Include="Busquedas\Partes\BuscaPorArea.cs" />
+    <Compile Include="Busquedas\Partes\BuscaPorImporte.cs" />
+    <Compile Include="Busquedas\Partes\BuscaPorRazonSocial.cs" />
+    <Compile Include="Busquedas\Partes\BuscaPorSucursal.cs" />
+    <Compile Include="Busquedas\Partes\BuscaTipoDocumento.cs" />
+    <Compile Include="Busquedas\Partes\BusquedaNombreProveedor.cs" />
+    <Compile Include="Busquedas\Partes\BuscaCodigoProveedor.cs" />
+    <Compile Include="Clientes\Borradores\BorradorCliente.cs" />
+    <Compile Include="Clientes\Borradores\BorradorRutaDeVenta.cs" />
+    <Compile Include="Clientes\Buscadores\BlockDeBusquedaCliente.cs" />
+    <Compile Include="Clientes\Buscadores\BuscadorCliente.cs" />
+    <Compile Include="Clientes\Buscadores\BuscadorPercepcionPorPadron.cs" />
+    <Compile Include="Clientes\Buscadores\BuscadorTarjetaClienteMayorista.cs" />
+    <Compile Include="Clientes\Buscadores\IBuscadorPercepcion.cs" />
+    <Compile Include="Clientes\Buscadores\ParteBusquedaTarjetasCliente.cs" />
+    <Compile Include="Clientes\BuscadorRutaDeVenta.cs" />
+    <Compile Include="Clientes\BuscadorRutaDeVentaDTO.cs" />
+    <Compile Include="Clientes\Creadores\CreadorCliente.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrababorFoxCliente.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxCanal.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxClienteDoblePrueba.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxClienteDobleReal.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxGeoRegionDeVenta.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxGrupoCliente.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxRamo.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxRegionDeVenta.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxRutaDeVenta.cs" />
+    <Compile Include="Articulos\GrabadoresFox\GrabadorFoxSubsector.cs" />
+    <Compile Include="Clientes\GrabadoresFox\GrabadorFoxTarjetaMayorista.cs" />
+    <Compile Include="Clientes\Grabadores\GrabadorCliente.cs" />
+    <Compile Include="Clientes\Grabadores\GrabadorGrupoCliente.cs" />
+    <Compile Include="Clientes\Grabadores\GrabadorRutaDeVenta.cs" />
+    <Compile Include="Clientes\Grabadores\GrabadorTarjetaClienteMayorista.cs" />
+    <Compile Include="Clientes\IBuscadorRutaDeVenta.cs" />
+    <Compile Include="Clientes\IBuscadorRutaDeVentaDTO.cs" />
+    <Compile Include="Clientes\Numeradores\NumeradorCliente.cs" />
+    <Compile Include="Clientes\Numeradores\NumeradorRutaDeVenta.cs" />
+    <Compile Include="Clientes\Validadores\ValidadorCliente.cs" />
+    <Compile Include="Contabilidad\BuscadorDTOConceptoDeMovimiento.cs" />
+    <Compile Include="Contabilidad\BuscadorReferencia.cs" />
+    <Compile Include="Contabilidad\IRegistroMapeoTasaConcepto.cs" />
+    <Compile Include="Contabilidad\RegistroMapeoTasaConcepto.cs" />
+    <Compile Include="Fiscales\BuscadorTasa.cs" />
+    <Compile Include="Fiscales\IBuscadorTasa.cs" />
+    <Compile Include="GrabadorFoxCalle.cs" />
+    <Compile Include="GrabadorFoxProvincia.cs" />
+    <Compile Include="Importadores\IMapeadorFox.cs" />
+    <Compile Include="Importadores\ImportadorDatos.cs" />
+    <Compile Include="Importadores\Mapeador.cs" />
+    <Compile Include="Importadores\MapeadorAreasFox.cs" />
+    <Compile Include="Importadores\MapeadorArticulosCompuestosFox.cs" />
+    <Compile Include="Importadores\MapeadorArticulosFox.cs" />
+    <Compile Include="Importadores\MapeadorClasesFox.cs" />
+    <Compile Include="Importadores\MapeadorDivisionesArticuloFox.cs" />
+    <Compile Include="Importadores\MapeadorFamiliasFox.cs" />
+    <Compile Include="Importadores\MapeadorGeoRegionDeVentaFox.cs" />
+    <Compile Include="Importadores\MapeadorGrupoClienteFox.cs" />
+    <Compile Include="Importadores\MapeadorLineaFox.cs" />
+    <Compile Include="Importadores\MapeadorPadronIIBB.cs" />
+    <Compile Include="Importadores\MapeadorBancosFox.cs" />
+    <Compile Include="Importadores\MapeadorCanalesFox.cs" />
+    <Compile Include="Importadores\MapeadorCaracteristicasFox.cs" />
+    <Compile Include="Importadores\MapeadorClientesFox.cs" />
+    <Compile Include="Importadores\MapeadorCobradoresFox.cs" />
+    <Compile Include="Importadores\MapeadorCondicionesDePagoClienteFox.cs" />
+    <Compile Include="Importadores\MapeadorDepositosFox.cs" />
+    <Compile Include="Importadores\MapeadorDivisionesComerciales.cs" />
+    <Compile Include="Importadores\MapeadorEmpaquesFox.cs" />
+    <Compile Include="Importadores\MapeadorEmpresaFox.cs" />
+    <Compile Include="Importadores\MapeadorEnvasesFox.cs" />
+    <Compile Include="Importadores\MapeadorHeredaTarjetasClienteMayoristaFox.cs" />
+    <Compile Include="Importadores\MapeadorListaDePreciosDeVentaFox.cs" />
+    <Compile Include="Importadores\MapeadorMarcasFox.cs" />
+    <Compile Include="Importadores\MapeadorPreventistasFox.cs" />
+    <Compile Include="Importadores\MapeadorProveedoresFox.cs" />
+    <Compile Include="Importadores\MapeadorRamosFox.cs" />
+    <Compile Include="Importadores\MapeadorReferenciaContableFox.cs" />
+    <Compile Include="Importadores\MapeadorRegionDeVentaFox.cs" />
+    <Compile Include="Importadores\MapeadorRubrosFox.cs" />
+    <Compile Include="Importadores\MapeadorRutaVentasFox.cs" />
+    <Compile Include="Importadores\MapeadorSectoresFox.cs" />
+    <Compile Include="Importadores\MapeadorSubfamiliasFox.cs" />
+    <Compile Include="Importadores\MapeadorSubSectoresFox.cs" />
+    <Compile Include="Importadores\MapeadorSupervisoresFox.cs" />
+    <Compile Include="Importadores\MapeadorTarjetasClienteMayoristaFox.cs" />
+    <Compile Include="Importadores\MapeadorTipoProveedorFox.cs" />
+    <Compile Include="Importadores\MapeadorTransportistasFox.cs" />
+    <Compile Include="Importadores\MapeadorVendedoresFox.cs" />
+    <Compile Include="Importadores\MapeadorZonasLogisticasFox.cs" />
+    <Compile Include="Importadores\RegistroMapeadores.cs" />
+    <Compile Include="Logistica\GrabadoresFox\GrabadorFoxZonaLogistica.cs" />
+    <Compile Include="LogManager.cs" />
+    <Compile Include="Importadores\MapeadorCallesFox.cs" />
+    <Compile Include="Importadores\MapeadorConceptosDeMovimientoFox.cs" />
+    <Compile Include="Importadores\MapeadorDataTable.cs" />
+    <Compile Include="Importadores\MapeadorFox.cs" />
+    <Compile Include="Importadores\MapeadorLocalidadFox.cs" />
+    <Compile Include="Menu\GestorMenu.cs" />
+    <Compile Include="Menu\MenuGestion.cs" />
+    <Compile Include="Menu\MenuLogistica.cs" />
+    <Compile Include="Menu\MenuMayorista.cs" />
+    <Compile Include="Menu\MenuPreventa.cs" />
+    <Compile Include="Menu\MenuRepresentaciones.cs" />
+    <Compile Include="Organizacion\GrabadorDivisionComercial.cs" />
+    <Compile Include="Organizacion\GrabadorEmpresa.cs" />
+    <Compile Include="Precios\CreadorCambioDePreciosDeVenta.cs" />
+    <Compile Include="Precios\MapeadorCambioDePreciosDeVenta.cs" />
+    <Compile Include="Preventa\BuscadoresDTO\BuscadorCoordenadaClienteDTO.cs" />
+    <Compile Include="Preventa\BuscadoresDTO\IBuscadorCoordenadaClienteDTO.cs" />
+    <Compile Include="Preventa\Buscadores\BuscadorCoordenadaCliente.cs" />
+    <Compile Include="Preventa\Buscadores\BuscadorFoxConfigZona.cs" />
+    <Compile Include="Preventa\Buscadores\IBuscadorCoordenadaCliente.cs" />
+    <Compile Include="Preventa\Buscadores\IBuscadorFoxConfigZona.cs" />
+    <Compile Include="Preventa\CreadorJefe.cs" />
+    <Compile Include="Preventa\CreadorPreventista.cs" />
+    <Compile Include="Clientes\Creadores\CreadorRutaDeVenta.cs" />
+    <Compile Include="Preventa\CreadorSupervisor.cs" />
+    <Compile Include="Preventa\GrabadoresFox\GrabadorFoxCobrador.cs" />
+    <Compile Include="Preventa\GrabadoresFox\GrabadorFoxPreventista.cs" />
+    <Compile Include="Preventa\GrabadoresFox\GrabadorFoxSupervisor.cs" />
+    <Compile Include="Preventa\GrabadoresFox\GrabadorFoxVendedor.cs" />
+    <Compile Include="Preventa\Grabadores\GrabadorSupervisor.cs" />
+    <Compile Include="Preventa\GrabadorPosicionGpsPreventa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Articulos\BuscadorArticulo.cs" />
+    <Compile Include="Proveedores\Borradores\BorradorProveedor.cs" />
+    <Compile Include="Proveedores\Buscadores\BlockDeBusquedaProveedor.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorComprobante.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorDetalleDevolucionMercadera.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorDocumentoDeCompra.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorDTOListaDePrecios.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorDTOOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorDTOProveedor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Buscadores\BuscadorLetra.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorListaDePrecios.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorListaDePreciosDetalle.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorNotaDevolucion.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorObjetivos.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorOrdenDeCompraDetalle.cs" />
+    <Compile Include="Proveedores\Buscadores\IBuscadorComprobante.cs" />
+    <Compile Include="Proveedores\Buscadores\IBuscadorDocumentoDeCompra.cs" />
+    <Compile Include="Proveedores\Buscadores\IBuscadorDTOProveedor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proveedores\Buscadores\IBuscadorLetra.cs" />
+    <Compile Include="Proveedores\Buscadores\BuscadorOrdenDePago.cs" />
+    <Compile Include="Proveedores\Consultadores\ConsultadorFacturaProveedor.cs" />
+    <Compile Include="Proveedores\Consultadores\IConsultador.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorDocumentoCompra.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorDevolucionDeMercaderia.cs" />
+    <Compile Include="GrabadorFoxLocalidad.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorOrdenDePago.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxCompras.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxDocumentoCompra.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxProveedor.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxProveedorDoblePrueba.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxProveedoresDobleReal.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxSubCompras.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxTipoProveedor.cs" />
+    <Compile Include="Proveedores\GrabadoresFox\GrabadorFoxTransportista.cs" />
+    <Compile Include="Proveedores\Grabadores\GrabadorDocumentoCompra.cs" />
+    <Compile Include="Proveedores\Grabadores\GrabadorProveedor.cs" />
+    <Compile Include="Proveedores\Buscadores\IBuscadorOrdenDePago.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorNotaDevolucion.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorItemCambioDePrecioDeVenta.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorListaDePrecios.cs" />
+    <Compile Include="Proveedores\Creadores\CreadorOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Grabadores\GrabadorDevolucionDeMercaderia.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscaCosto.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorArticulo.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorDTOOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorListaDePrecios.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorListaDePreciosDetalle.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorObjetivos.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorOrdenDeCompraDetalle.cs" />
+    <Compile Include="Proveedores\Interfaces\IBuscadorReferencia.cs" />
+    <Compile Include="Proveedores\Interfaces\ICreadorItemCambioDePrecioDeVenta.cs" />
+    <Compile Include="Proveedores\Interfaces\IMapeadorOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Interfaces\IPoneLetra.cs" />
+    <Compile Include="Proveedores\ItemLetra.cs" />
+    <Compile Include="Proveedores\Mapeadores\IMapeadorOrdenDePago.cs" />
+    <Compile Include="Proveedores\Mapeadores\MapeadorDevolucionDeMercaderia.cs" />
+    <Compile Include="Proveedores\Mapeadores\MapeadorListaDePrecios.cs" />
+    <Compile Include="Proveedores\Mapeadores\MapeadorOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\Mapeadores\MapeadorOrdenDePagoDataTable.cs" />
+    <Compile Include="Proveedores\Numeradores\NumeradorProveedor.cs" />
+    <Compile Include="Proveedores\Numeradores\NumeradorTransportista.cs" />
+    <Compile Include="Proveedores\PoneLetra.cs" />
+    <Compile Include="RegistroNegocios.cs" />
+    <Compile Include="Stock\BuscadorFactura.cs" />
+    <Compile Include="Stock\BuscadorRecibo.cs" />
+    <Compile Include="Stock\CreadorIngreso.cs" />
+    <Compile Include="Stock\CreadorMovimiento.cs" />
+    <Compile Include="Stock\GrabadoresFox\GrabadorFoxDeposito.cs" />
+    <Compile Include="Stock\GrabadorIngreso.cs" />
+    <Compile Include="Stock\IBuscadorFactura.cs" />
+    <Compile Include="Stock\IBuscadorRecibo.cs" />
+    <Compile Include="Stock\Mapeadores\MapeadorMovimiento.cs" />
+    <Compile Include="Stock\Mapeadores\MapeadorIngreso.cs" />
+    <Compile Include="Tesoreria\GrabadorFoxBancos.cs" />
+    <Compile Include="Usuarios\CreadorUsuario.cs" />
+    <Compile Include="Usuarios\GrabadorPerfilUsuario.cs" />
+    <Compile Include="ValidadorBaseDatos.cs" />
+    <Compile Include="Validadores\ValidadorDivisionComercial.cs" />
+    <Compile Include="Validadores\ValidadorGenerico.cs" />
+    <Compile Include="Validadores\ValidadorGeoRegionDeVenta.cs" />
+    <Compile Include="Validadores\ValidadorRegionDeVenta.cs" />
+    <Compile Include="Validadores\ValidadorRutaDeVenta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Inteldev.Fixius.Negocios.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inteldev.Fixius.Datos\Inteldev.Fixius.Datos.csproj">
+      <Project>{6b686d96-6f50-44a2-beb3-d680b169dcaf}</Project>
+      <Name>Inteldev.Fixius.Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

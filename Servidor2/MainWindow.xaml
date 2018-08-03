@@ -1,0 +1,133 @@
+﻿<Window x:Class="Servidor2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controles="clr-namespace:Inteldev.Core.Presentacion.Controles;assembly=Inteldev.Core.Presentacion"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Title="Servidor Fixius" Height="480" Width="640" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="23"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl>
+
+            <TabItem Header="Principal" Name="Main">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <StackPanel VerticalAlignment="Center">
+                        <Button 
+                        Content="Abrir Servicios" 
+                        Name="button1" 
+                        Height="23" Width="95" 
+                        Click="button1_Click"
+                        Margin="10"
+                    />
+                        <Button 
+                        Content="Cerrar Servicios" 
+                        IsEnabled="False" 
+                        Height="23" Width="95" 
+                        Margin="10"
+                        Name="button2" 
+                        Click="button2_Click_1"
+                    />
+                    </StackPanel>
+                    <ListBox Name="lstManager" Grid.Row="1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Registros" Name="Registros">
+                <DataGrid Name="dataGridRegistros" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="RegisteredType" Binding="{Binding Item1}"/>
+                        <DataGridTextColumn Header="MappedToType" Binding="{Binding Item2}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Importar desde Fox" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button 
+                    Content="Actualizar Base de Datos" 
+                    Height="47" Width="150"
+                    Click="btnActualizarBD" 
+                    Grid.Column="1" Grid.Row="0"
+                    Name="btnActualizar"
+                    />
+                    <!--<ScrollViewer Grid.Row="1">
+                        <StackPanel>
+                            <Label Content="Mapeadores Incluidos"></Label>
+                            <StackPanel x:Name="StackConChecks"></StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>-->
+                    <DataGrid Grid.Row="1" Name="dataGridMapaeadoresFox" AutoGenerateColumns="False" BorderThickness="0" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Mapeador" Binding="{Binding Nombre}" />
+                            <DataGridCheckBoxColumn Header="Seleccionado" Binding="{Binding Seleccionado,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Contextos">
+                <!--<Grid>
+                <StackPanel Name="stackPanel" Margin="10">
+                    <controles:ItemFormularioGrilla
+                        Etiqueta="Contextos" 
+                        Height="100"
+                        Presentador="{Binding PresentadorContexto, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        Margin="0,0,0,10"
+                    >
+                        <controles:ItemFormularioGrilla.Columnas>
+                            <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Contexto" Binding="{Binding StringConnecion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                        </controles:ItemFormularioGrilla.Columnas>
+                    </controles:ItemFormularioGrilla>
+
+                    <DataGrid 
+                        Height="100" Margin="150,0,0,10"
+                        AutoGenerateColumns="False" 
+                        ItemsSource="{Binding Path=PresentadorEmpresaContexto.Items, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                        CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id" IsReadOnly="True" Binding="{Binding Id, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Empresa" IsReadOnly="True" Binding="{Binding Path=Empresa.RazonSocial, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                            <DataGridComboBoxColumn Header="Contexto" DisplayMemberPath="Nombre" SelectedItemBinding="{Binding Path=Contexto,UpdateSourceTrigger=PropertyChanged}">
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                    <Style TargetType="ComboBox">
+                                        <Setter Property="ItemsSource" Value="{Binding Path=PresentadorEmpresaContexto.Contextos, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" />
+                                    </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+                            </DataGridComboBoxColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <controles:ItemFormularioGrilla
+                        Etiqueta="Entidad-Empresa" Height="125"
+                        Presentador="{Binding PresentadorEmpresaEntidad, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    >
+                        <controles:ItemFormularioGrilla.Columnas>
+                            <DataGridTextColumn Header="EmpresaContextoId" Binding="{Binding RelacionId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Entidad" Binding="{Binding Entidad, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Grupo" Binding="{Binding Grupo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGridTextColumn>
+                        </controles:ItemFormularioGrilla.Columnas>
+                    </controles:ItemFormularioGrilla>
+                </StackPanel>
+            </Grid>-->
+            </TabItem>
+        </TabControl>
+        <StatusBar Height="23" Name="statusBar1" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Row="2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="lblIp" Margin="0,0,5,0" Text="IP:" />
+                <TextBlock Name="txtIp" Margin="0,0,5,0" Width="100"></TextBlock>
+                <TextBlock Name="lblPuerto" Margin="0,0,5,0" Text="Puerto TCP:" ></TextBlock>
+                <TextBlock Name="txtPuerto" Margin="0,0,5,0" Width="100"></TextBlock>
+                <TextBlock Name="lblTiempoTranscurrido" Margin="0,0,5,0" Text="Tiempo transcurrido de descarga: "/>
+                <TextBlock Name="txtTiempoTranscurrido" Margin="0,0,5,0" Text="{Binding Tiempo.Duration(), StringFormat=0:HH:mm:ss, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+        </StatusBar>
+    </Grid>
+</Window>

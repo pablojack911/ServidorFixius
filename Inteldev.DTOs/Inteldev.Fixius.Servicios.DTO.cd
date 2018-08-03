@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Area">
+    <Position X="46.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Area.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Articulo">
+    <Position X="69" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gABABBABCAIARgABEBBAAAgFEAAKQAEAogAIAQAAKEg=</HashCode>
+      <FileName>Articulos\Articulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.ArticuloCompuesto">
+    <Position X="91.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\ArticuloCompuesto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Caracteristica">
+    <Position X="152" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Caracteristica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Categoria">
+    <Position X="178.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Clase">
+    <Position X="49" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Clase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.CodigoDun">
+    <Position X="219" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAASAAAAAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Articulos\CodigoDun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.CodigoEan">
+    <Position X="221.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAASAAAAAAAAAAAggAAAAAgAAAAA=</HashCode>
+      <FileName>Articulos\CodigoEan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.DatosOldArticulo">
+    <Position X="226.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gQAAApAgKWAABgBQAAAABBEAkBAAAggAAgBCEACDAAg=</HashCode>
+      <FileName>Articulos\DatosOldArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.DatosOldEnvases">
+    <Position X="241.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Articulos\DatosOldEnvases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Division">
+    <Position X="154.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Divicion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Empaque">
+    <Position X="169.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Empaque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Envase">
+    <Position X="191.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Envase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Familia">
+    <Position X="31.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Articulos\Familia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Grupo">
+    <Position X="84.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Grupo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Jerarquia">
+    <Position X="34" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Jerarquia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Linea">
+    <Position X="58.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAACAIAEAAEAAIBAhCEAgAAAAIAAAAkAABAAAAQAAg=</HashCode>
+      <FileName>Articulos\Linea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Marca">
+    <Position X="104" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Marca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.ObservacionArticulo" Collapsed="true">
+    <Position X="266.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\ObservacionArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Rubro">
+    <Position X="143.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAIAABAEAgAAAAIAAAAAAAAAAIAQAAA=</HashCode>
+      <FileName>Articulos\Rubro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Sector">
+    <Position X="167.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAA=</HashCode>
+      <FileName>Articulos\Sector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.SKU">
+    <Position X="180.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\SKU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Subfamilia">
+    <Position X="193.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAA=</HashCode>
+      <FileName>Articulos\Subfamilia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.Subsector">
+    <Position X="36.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Articulos\Subsector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Articulos.TasasDeIva">
+    <Position X="86.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\TasasDeIva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Canal">
+    <Position X="138.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Canal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.CargosDeFuerzaDeVenta">
+    <Position X="172.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CargosDeFuerzaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Cliente">
+    <Position X="81.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BJkISAgQEDAAACMQERAEAAAACAIDAAAWQAAAAgAAAwg=</HashCode>
+      <FileName>Clientes\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.CondicionDePagoCliente">
+    <Position X="43.25" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.ConfiguraCredito">
+    <Position X="216" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAEAAAAAABBAAQQAAAIAAAACEoAgCAAAAAA=</HashCode>
+      <FileName>Clientes\ConfiguraCredito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldCliente">
+    <Position X="232" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EBIEAAAAAACBAAAEACAAAAAEMgSBAUgAAgCASBBAAFI=</HashCode>
+      <FileName>Clientes\DatosOldCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldCondicionDePagoCliente">
+    <Position X="238.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Clientes\DatosOldCondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DatosOldRutaDeVenta">
+    <Position X="206" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAgAAAAAAAABAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\DatosOldRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DiasDeSemana" Collapsed="true">
+    <Position X="263" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACAAQAAABAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Clientes\DiasDeSemana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.DocumentoVenta">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\DocumentoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.GeoRegionDeVenta">
+    <Position X="71.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\GeoRegionDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.GrupoCliente">
+    <Position X="106.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Clientes\GrupoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.ObservacionCliente">
+    <Position X="213.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Clientes\ObservacionCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Ramo">
+    <Position X="38.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Ramo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.Region">
+    <Position X="64.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.RegionDeVenta">
+    <Position X="93.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\RegionDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.RutaDeVenta">
+    <Position X="156.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAQACAAAAAAAAABACBAGAEAAAgRAAAABACA=</HashCode>
+      <FileName>Clientes\RutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.TarjetaClienteMayorista">
+    <Position X="55.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAEAAAQAAAJAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\TarjetaClienteMayorista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Clientes.TarjetaMayoristaItem">
+    <Position X="74" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAACAAgAA=</HashCode>
+      <FileName>Clientes\TarjetaMayoristaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.ConfiguraEmpresa" BaseTypeListCollapsed="true">
+    <Position X="76.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAQAAAQ=</HashCode>
+      <FileName>ConfiguraEmpresa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Contexto">
+    <Position X="89" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contexto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.RelacionEmpresaEntidad">
+    <Position X="113" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RelacionEmpresaEntidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Contabilidad.ReferenciaContable">
+    <Position X="61.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAgAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contabilidad\ReferenciaContable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Financiero.ConceptoDeMovimiento">
+    <Position X="161.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Financiero\ConceptoDeMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Logistica.ZonaGeografica">
+    <Position X="51.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAgA=</HashCode>
+      <FileName>Logistica\ZonaGeografica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.CambioDePreciosDeVenta">
+    <Position X="133" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAABAg=</HashCode>
+      <FileName>Precios\CambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.Descuento">
+    <Position X="211.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\Descuento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.DescuentosPorLista">
+    <Position X="79" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\DescuentosPorLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.Folder">
+    <Position X="53.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\Folder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.HabilitaLista">
+    <Position X="135.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABCAAIAAAEAAAAAAAAAAAAAAAEBAAAABAAAASAAQAAA=</HashCode>
+      <FileName>Precios\HabilitaLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ItemDescuentoPorLista">
+    <Position X="235.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAABABGAAAQgAAEAAAAAAAAAAAAAEQIAAIAQAACEA=</HashCode>
+      <FileName>Precios\ItemDescuentoPorLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ItemListaDePreciosDeVenta">
+    <Position X="246" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAABABGAAAQgAAEAAAAAAAAAAAAAEAIAAIAQAACEA=</HashCode>
+      <FileName>Precios\ItemListaDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Precios.ListaDePreciosDeVenta">
+    <Position X="101.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\ListadePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Cobrador">
+    <Position X="29.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Cobrador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.DatosOldPreventa">
+    <Position X="249" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAA=</HashCode>
+      <FileName>Preventa\DatosOldPreventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.DetallePedido">
+    <Position X="96.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABEQAAEAEEAAAAAAAAAAAAAAAEBAAAAQAAAAQAAAAAA=</HashCode>
+      <FileName>Preventa\DetallePedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Jefe">
+    <Position X="20.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Jefe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Pedido">
+    <Position X="121.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAABCAAAAAAAQQAAAAIAAAAAAAgAA=</HashCode>
+      <FileName>Preventa\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.PosicionGPSPreventa">
+    <Position X="159" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAIAAAAAAAgAA=</HashCode>
+      <FileName>Preventa\PosicionGPSPreventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Preventa">
+    <Position X="24.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABAEQAAAAAA=</HashCode>
+      <FileName>Preventa\Preventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Preventista">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Preventista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Supervisor">
+    <Position X="25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Supervisor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Preventa.Vendedor">
+    <Position X="27.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Vendedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Aplicacion">
+    <Position X="40.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Aplicacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ColorColumnaPlantilla">
+    <Position X="128" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ColorColumnaPlantilla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Columna">
+    <Position X="229.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAQAAA=</HashCode>
+      <FileName>Proveedores\Columna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.CondicionDePago">
+    <Position X="198" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAABAAABAAAA=</HashCode>
+      <FileName>Proveedores\CondicionDePago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DatosOldProveedor">
+    <Position X="256" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAEQEAEAAACAAAAAAAAQIEAAAAAAAEAAQ=</HashCode>
+      <FileName>Proveedores\DatosOldProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DevolucionDeMercaderia">
+    <Position X="115.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAQIAA=</HashCode>
+      <FileName>Proveedores\DevolucionDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DevolucionDeProveedor" Collapsed="true">
+    <Position X="261.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Proveedores\DevolucionDeProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DocumentoCompra">
+    <Position X="0.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACgCwBAwIAACMAAgACgAAABACAEAQAAAAAAQA=</HashCode>
+      <FileName>Proveedores\DocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.DocumentoProveedor">
+    <Position X="2" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\DocumentoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Entrega">
+    <Position X="182.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Proveedores\Entrega.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ItemsConceptos" BaseTypeListCollapsed="true">
+    <Position X="258.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQAAAgEAAAIBAAAAAgAAAAAAQAAAAEAAAIAQ=</HashCode>
+      <FileName>Proveedores\ItemsConceptos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ListaDePrecios">
+    <Position X="66.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEBAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Motivo">
+    <Position X="123.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Motivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.NotaDeDebitoDeVenta" Collapsed="true">
+    <Position X="264.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAACAAAAAAAABAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Proveedores\NotaDeDebitoDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.NotaPendiente">
+    <Position X="1" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\NotaPendiente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Objetivos">
+    <Position X="251.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAGgAAQgAAEAAAQAAABAAAAAEAIAAKAQAACEA=</HashCode>
+      <FileName>Proveedores\Objetivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ObjetivosDeCompra">
+    <Position X="200.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ObjetivosDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ObservacionProveedor" Collapsed="true">
+    <Position X="268.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ObservacionProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDeCompra">
+    <Position X="98.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAgBAlAAAAAAACABAAAAADAAQAAAAFAAAAAAAEIAg=</HashCode>
+      <FileName>Proveedores\OrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDeCompraDetalle">
+    <Position X="224" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\OrdenDeCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.OrdenDePago">
+    <Position X="3.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\OrdenDePago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.PlantillaListaProveedor">
+    <Position X="146" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\PlantillaListaProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ProntoPago">
+    <Position X="243.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ProntoPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Proveedor">
+    <Position X="185" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIEASAAQMAAAABACEDAAAgAECAgCAAAAQAEAAkACBwg=</HashCode>
+      <FileName>Proveedores\Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ProveedorNuevo">
+    <Position X="195.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Proveedores\ProveedorNuevo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.ResponsablesCompras">
+    <Position X="130.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ResponsablesCompras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoProveedor">
+    <Position X="108.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Proveedores.Transportista">
+    <Position X="125.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Transportista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ConceptoDeMovimientoDeStock">
+    <Position X="188" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Stock\ConceptoDeMovimientoDeStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.Ingreso">
+    <Position X="140.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAEAAACAAAAAAAIAABAAAAAAAFAAAAAAEUMAo=</HashCode>
+      <FileName>Stock\Ingreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ItemNoIngresado">
+    <Position X="253.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAEAAAAAAAACAAIAABAAAAAAAFAAAAAAEUMAo=</HashCode>
+      <FileName>Stock\ItemNoIngresado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.Movimiento">
+    <Position X="148.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAIEAEE=</HashCode>
+      <FileName>Stock\Movimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Stock.ReciboStock">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAEAAAAAAAAABAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Stock\ReciboStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.Banco">
+    <Position X="110.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ChequeDeTercero">
+    <Position X="203" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAgAAAAAEAAAEAAAAAAAgAAAABAAQAAAARCAA=</HashCode>
+      <FileName>Tesoreria\ChequeDeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ChequePropio">
+    <Position X="208.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAgAAAAAEAAAEAACAAAAgAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Tesoreria\ChequePropio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.ConceptoDeMovimientoBancario">
+    <Position X="175" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\ConceptoDeMovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.CuentaBancaria">
+    <Position X="118.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAiAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\CuentaBancaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoChequeBanco">
+    <Position X="18" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\DestinoChequeBanco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoChequeTercero">
+    <Position X="16.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\DestinoChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.DestinoProveedor">
+    <Position X="15.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Tesoreria\DestinoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.MovimientoBancario">
+    <Position X="164.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAwAAAAAEAAAAAAAAAAAAAAAAAIAAAEgABAAA=</HashCode>
+      <FileName>Tesoreria\MovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.MovimientoChequeTercero">
+    <Position X="15" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\MovimientoChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.OrigenChequeTercero">
+    <Position X="13" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\OrigenChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.OrigenChequeTerceroCliente">
+    <Position X="12.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\OrigenChequeTerceroCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorArticulo">
+    <Position X="3.5" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorCliente">
+    <Position X="6" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorDocumentoCompra">
+    <Position X="8.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorDocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorFactura">
+    <Position X="11.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorFactura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorIngreso">
+    <Position X="14.5" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Servicios.DTO.Validadores.ValidadorProveedor">
+    <Position X="1" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validadores\ValidadorProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Core.DTO.DTOMaestro">
+    <Position X="112" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.DTOBase">
+    <Position X="135.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Validaciones.ValidadorBase&lt;TEntidad&gt;">
+    <Position X="7.75" Y="9.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Documento" Collapsed="true">
+    <Position X="258.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.DTO.Auditoria.Observacion" Collapsed="true">
+    <Position X="270.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.EnumTasas" Collapsed="true">
+    <Position X="261.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Articulos\EnumTasas.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.EstadoArticulo" Collapsed="true">
+    <Position X="263" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAI=</HashCode>
+      <FileName>Articulos\EstadoArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Articulos.UnidadDeMedida" Collapsed="true">
+    <Position X="266.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAIEAAAAgAAAAAEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\UnidadDeMedida.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.ModoDePago" Collapsed="true">
+    <Position X="266.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.AceptaPedidos" Collapsed="true">
+    <Position X="261.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\DatosOldRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.EstadoCliente" Collapsed="true">
+    <Position X="266.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Clientes\EstadoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Clientes.TipoDocumentoCliente" Collapsed="true">
+    <Position X="268.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAEAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\TipoDocumentoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Fiscal.CondicionAnteIIBB" Collapsed="true">
+    <Position X="266.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Fiscal\CondicionAnteIIBB.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Fiscal.CondicionAnteIva" Collapsed="true">
+    <Position X="268.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Fiscal\CondicionAnteIva.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Precios.EstadoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="264.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>Precios\EstadoCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Precios.TipoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="268.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Precios\TipoCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Preventa.TipoPedido" Collapsed="true">
+    <Position X="264.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Preventa\TipoPedido.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoColumna" Collapsed="true">
+    <Position X="261.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAUABEAAICgAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Proveedores\Columna.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoDescuento" Collapsed="true">
+    <Position X="264.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAA=</HashCode>
+      <FileName>Proveedores\Columna.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.EstadoOrdenDeCompra" Collapsed="true">
+    <Position X="261.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Proveedores\EstadoOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.EstadoProveedor" Collapsed="true">
+    <Position X="263" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>Proveedores\EstadoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.FormaDePago" Collapsed="true">
+    <Position X="264.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\FormaDePago.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.aplicableEnum" Collapsed="true">
+    <Position X="264.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Objetivos.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoConcepto" Collapsed="true">
+    <Position X="263" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAEAAAAAAAAAIQAAAAAAAAAAQAACAACAAAAA=</HashCode>
+      <FileName>Proveedores\TipoConcepto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoDocumento" Collapsed="true">
+    <Position X="266.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAAAAAIAAAAAAAAAoAAASAAAA=</HashCode>
+      <FileName>Proveedores\TipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Proveedores.TipoOrden" Collapsed="true">
+    <Position X="263" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoOrden.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Stock.EstadoIngresoDeMercaderia" Collapsed="true">
+    <Position X="268.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Stock\EstadoIngresoDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Stock.TipoMovimiento" Collapsed="true">
+    <Position X="261.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Stock\TipoMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Servicios.DTO.Tesoreria.Afecta" Collapsed="true">
+    <Position X="263" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Tesoreria\ConceptoDeMovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FBBABF5-3FF2-43B7-8FE6-01DF098F5E2B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Inteldev.Core">
+      <HintPath>..\..\Core\Inteldev.Core\bin\Debug\Inteldev.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Contratos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Contratos\bin\Debug\Inteldev.Core.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Datos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Datos\bin\Debug\Inteldev.Core.Datos.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.DTO">
+      <HintPath>..\..\Core\Inteldev.Core.Servicios.DTO\bin\Debug\Inteldev.Core.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Modelo">
+      <HintPath>..\..\Core\Inteldev.Core.Modelo\bin\Debug\Inteldev.Core.Modelo.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Negocios">
+      <HintPath>..\..\Core\Inteldev.Core.Negocios\bin\Debug\Inteldev.Core.Negocios.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Presentacion">
+      <HintPath>..\..\Core\Inteldev.Core.Presentacion\bin\Debug\Inteldev.Core.Presentacion.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Servicios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Servicios\bin\Debug\Inteldev.Core.Servicios.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.0.1304.0\lib\Net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.0.1304.0\lib\Net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inteldev.DTOs\Inteldev.Fixius.Servicios.DTO.csproj">
+      <Project>{a2c077ab-b32d-471b-8bd9-6d747fbc84f7}</Project>
+      <Name>Inteldev.Fixius.Servicios.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inteldev.Fixius.DataSwitch\Inteldev.Fixius.DataSwitch.csproj">
+      <Project>{bd349f5e-968f-4a04-b673-d7912d1900b6}</Project>
+      <Name>Inteldev.Fixius.DataSwitch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inteldev.Fixius.Datos\Inteldev.Fixius.Datos.csproj">
+      <Project>{6b686d96-6f50-44a2-beb3-d680b169dcaf}</Project>
+      <Name>Inteldev.Fixius.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inteldev.Fixius.Modelo\Inteldev.Fixius.Modelo.csproj">
+      <Project>{7e816034-a466-4f3a-90dc-0aeb863a8e67}</Project>
+      <Name>Inteldev.Fixius.Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inteldev.Fixius.Negocios\Inteldev.Fixius.Negocios.csproj">
+      <Project>{e326b4b1-1e8a-48f5-bcb9-c58847569200}</Project>
+      <Name>Inteldev.Fixius.Negocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfServiceLibrary1\Inteldev.Fixius.Servicios.csproj">
+      <Project>{3522b71d-16ff-4026-bddf-d5ca64e08510}</Project>
+      <Name>Inteldev.Fixius.Servicios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.2.1\tools\AutoMapper.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

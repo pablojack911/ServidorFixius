@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2C077AB-B32D-471B-8BD9-6D747FBC84F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inteldev.Fixius.Servicios.DTO</RootNamespace>
+    <AssemblyName>Inteldev.Fixius.Servicios.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\portable-net40+sl50+wp80+win8+wpa81\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Inteldev.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core\bin\Debug\Inteldev.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Contratos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Contratos\bin\Debug\Inteldev.Core.Contratos.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.DTO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Core\Inteldev.Core.Servicios.DTO\bin\Debug\Inteldev.Core.DTO.dll</HintPath>
+    </Reference>
+    <Reference Include="Inteldev.Core.Validaciones">
+      <HintPath>..\..\Core\Inteldev.Core.Validaciones\bin\Debug\Inteldev.Core.Validaciones.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulos\Area.cs" />
+    <Compile Include="Articulos\Articulo.cs" />
+    <Compile Include="Articulos\ArticuloCompuesto.cs" />
+    <Compile Include="Articulos\ArticuloEnvase.cs" />
+    <Compile Include="Articulos\Caracteristica.cs" />
+    <Compile Include="Articulos\Categoria.cs" />
+    <Compile Include="Articulos\Clase.cs" />
+    <Compile Include="Articulos\CodigoDun.cs" />
+    <Compile Include="Articulos\CodigoEan.cs" />
+    <Compile Include="Articulos\DatosOldArticulo.cs" />
+    <Compile Include="Articulos\Division.cs" />
+    <Compile Include="Articulos\Empaque.cs" />
+    <Compile Include="Preventa\CoordenadaCliente.cs" />
+    <Compile Include="Contabilidad\EnumTasas.cs" />
+    <Compile Include="Articulos\Envase.cs" />
+    <Compile Include="Articulos\EstadoArticulo.cs" />
+    <Compile Include="Articulos\Familia.cs" />
+    <Compile Include="Articulos\GrupoArticulo.cs" />
+    <Compile Include="Articulos\Jerarquia.cs" />
+    <Compile Include="Articulos\Linea.cs" />
+    <Compile Include="Articulos\Marca.cs" />
+    <Compile Include="Articulos\ObservacionArticulo.cs" />
+    <Compile Include="Articulos\Rubro.cs" />
+    <Compile Include="Articulos\Sector.cs" />
+    <Compile Include="Articulos\SKU.cs" />
+    <Compile Include="Articulos\Subfamilia.cs" />
+    <Compile Include="Articulos\Subsector.cs" />
+    <Compile Include="Contabilidad\TasasDeIva.cs" />
+    <Compile Include="Articulos\UnidadDeMedida.cs" />
+    <Compile Include="Clientes\Canal.cs" />
+    <Compile Include="Clientes\CargosDeFuerzaDeVenta.cs" />
+    <Compile Include="Clientes\Cliente.cs" />
+    <Compile Include="Clientes\ClienteBusqueda.cs" />
+    <Compile Include="Clientes\CondicionDePagoCliente.cs" />
+    <Compile Include="Clientes\ConfiguraCredito.cs" />
+    <Compile Include="Clientes\DatosOldCliente.cs" />
+    <Compile Include="Clientes\DatosOldCondicionDePagoCliente.cs" />
+    <Compile Include="Clientes\DatosOldRutaDeVenta.cs" />
+    <Compile Include="Clientes\DiasDeSemana.cs" />
+    <Compile Include="Clientes\DocumentoVenta.cs" />
+    <Compile Include="Clientes\EstadoCliente.cs" />
+    <Compile Include="Clientes\GeoRegionDeVenta.cs" />
+    <Compile Include="Clientes\GrupoCliente.cs" />
+    <Compile Include="Clientes\RegionDeVenta.cs" />
+    <Compile Include="Clientes\Regiones.cs" />
+    <Compile Include="Clientes\TipoDocumentoCliente.cs" />
+    <Compile Include="ConfiguraEmpresa.cs" />
+    <Compile Include="Contexto.cs" />
+    <Compile Include="Fiscal\PadronIIBB.cs" />
+    <Compile Include="Logistica\ZonaLogistica.cs" />
+    <Compile Include="Preventa\Cobrador.cs" />
+    <Compile Include="Preventa\DatosOldPreventa.cs" />
+    <Compile Include="Preventa\DetallePedido.cs" />
+    <Compile Include="Preventa\Jefe.cs" />
+    <Compile Include="Clientes\ObservacionCliente.cs" />
+    <Compile Include="Preventa\Pedido.cs" />
+    <Compile Include="Preventa\PosicionGPSPreventa.cs" />
+    <Compile Include="Preventa\Preventa.cs" />
+    <Compile Include="Clientes\Ramo.cs" />
+    <Compile Include="Clientes\RutaDeVenta.cs" />
+    <Compile Include="Preventa\Supervisor.cs" />
+    <Compile Include="Clientes\TarjetaClienteMayorista.cs" />
+    <Compile Include="Clientes\TarjetaMayoristaItem.cs" />
+    <Compile Include="Preventa\Preventista.cs" />
+    <Compile Include="Contabilidad\ReferenciaContable.cs" />
+    <Compile Include="Financiero\ConceptoDeMovimiento.cs" />
+    <Compile Include="Fiscal\CondicionAnteIIBB.cs" />
+    <Compile Include="Fiscal\CondicionAnteIva.cs" />
+    <Compile Include="Logistica\ZonaGeografica.cs" />
+    <Compile Include="Precios\CambioDePreciosDeVenta.cs" />
+    <Compile Include="Precios\Descuento.cs" />
+    <Compile Include="Precios\DescuentosPorLista.cs" />
+    <Compile Include="Precios\EstadoCambioDePreciosDeVenta.cs" />
+    <Compile Include="Precios\Folder.cs" />
+    <Compile Include="Precios\HabilitaLista.cs" />
+    <Compile Include="Precios\ItemDescuentoPorLista.cs" />
+    <Compile Include="Precios\ItemListaDePreciosDeVenta.cs" />
+    <Compile Include="Precios\ListadePreciosDeVenta.cs" />
+    <Compile Include="Precios\TipoCambioDePreciosDeVenta.cs" />
+    <Compile Include="Preventa\TipoPedido.cs" />
+    <Compile Include="Preventa\Vendedor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores\Aplicacion.cs" />
+    <Compile Include="Proveedores\ColorColumnaPlantilla.cs" />
+    <Compile Include="Proveedores\Columna.cs" />
+    <Compile Include="Proveedores\DocumentoProveedor.cs" />
+    <Compile Include="Proveedores\CondicionDePagoProveedor.cs" />
+    <Compile Include="Proveedores\DatosOldProveedor.cs" />
+    <Compile Include="Proveedores\DevolucionDeMercaderia.cs" />
+    <Compile Include="Proveedores\DocumentoCompra.cs" />
+    <Compile Include="Proveedores\Entrega.cs" />
+    <Compile Include="Proveedores\EstadoOrdenDeCompra.cs" />
+    <Compile Include="Proveedores\EstadoProveedor.cs" />
+    <Compile Include="Proveedores\FormaDePago.cs" />
+    <Compile Include="Proveedores\ItemsConceptos.cs" />
+    <Compile Include="Proveedores\ListaDePrecios.cs" />
+    <Compile Include="Proveedores\Motivo.cs" />
+    <Compile Include="Proveedores\NotaPendiente.cs" />
+    <Compile Include="Proveedores\Objetivos.cs" />
+    <Compile Include="Proveedores\ObjetivosDeCompra.cs" />
+    <Compile Include="Proveedores\ObservacionProveedor.cs" />
+    <Compile Include="Proveedores\OrdenDeCompra.cs" />
+    <Compile Include="Proveedores\OrdenDeCompraDetalle.cs" />
+    <Compile Include="Proveedores\OrdenDePago.cs" />
+    <Compile Include="Proveedores\PlantillaListaProveedor.cs" />
+    <Compile Include="Proveedores\ProntoPago.cs" />
+    <Compile Include="Proveedores\Proveedor.cs" />
+    <Compile Include="Proveedores\ProveedorNuevo.cs" />
+    <Compile Include="Proveedores\ResponsablesCompras.cs" />
+    <Compile Include="Proveedores\TipoConcepto.cs" />
+    <Compile Include="Proveedores\TipoDocumento.cs" />
+    <Compile Include="Proveedores\TipoOrden.cs" />
+    <Compile Include="Proveedores\DevolucionDeProveedor.cs" />
+    <Compile Include="Proveedores\TipoProveedor.cs" />
+    <Compile Include="Proveedores\Transportista.cs" />
+    <Compile Include="RelacionEmpresaEntidad.cs" />
+    <Compile Include="Stock\ConceptoDeMovimientoDeStock.cs" />
+    <Compile Include="Stock\EstadoIngresoDeMercaderia.cs" />
+    <Compile Include="Stock\Ingreso.cs" />
+    <Compile Include="Stock\ItemNoIngresado.cs" />
+    <Compile Include="Stock\Movimiento.cs" />
+    <Compile Include="Proveedores\NotaDeDebitoDeVenta.cs" />
+    <Compile Include="Stock\ReciboStock.cs" />
+    <Compile Include="Stock\TipoMovimiento.cs" />
+    <Compile Include="Tesoreria\Banco.cs" />
+    <Compile Include="Tesoreria\ChequeDeTercero.cs" />
+    <Compile Include="Tesoreria\ChequePropio.cs" />
+    <Compile Include="Tesoreria\ConceptoDeMovimientoBancario.cs" />
+    <Compile Include="Tesoreria\CuentaBancaria.cs" />
+    <Compile Include="Tesoreria\DestinoChequeBanco.cs" />
+    <Compile Include="Tesoreria\DestinoChequeTercero.cs" />
+    <Compile Include="Tesoreria\DestinoProveedor.cs" />
+    <Compile Include="Tesoreria\MovimientoBancario.cs" />
+    <Compile Include="Tesoreria\MovimientoChequeTercero.cs" />
+    <Compile Include="Tesoreria\OrigenChequeTercero.cs" />
+    <Compile Include="Tesoreria\OrigenChequeTerceroCliente.cs" />
+    <Compile Include="Validadores\ValidadorArticulo.cs" />
+    <Compile Include="Validadores\ValidadorCanal.cs" />
+    <Compile Include="Validadores\ValidadorCliente.cs" />
+    <Compile Include="Validadores\ValidadorCondicionDePagoCliente.cs" />
+    <Compile Include="Validadores\ValidadorDocumentoCompra.cs" />
+    <Compile Include="Validadores\ValidadorEnvase.cs" />
+    <Compile Include="Validadores\ValidadorFactura.cs" />
+    <Compile Include="Validadores\ValidadorFamilia.cs" />
+    <Compile Include="Validadores\ValidadorLinea.cs" />
+    <Compile Include="Validadores\ValidadorObservacion.cs" />
+    <Compile Include="Validadores\ValidadorRegiones.cs" />
+    <Compile Include="Validadores\ValidadorGrupoCliente.cs" />
+    <Compile Include="Validadores\ValidadorIngreso.cs" />
+    <Compile Include="Validadores\ValidadorPreventa.cs" />
+    <Compile Include="Validadores\ValidadorProveedor.cs" />
+    <Compile Include="Validadores\ValidadorRamo.cs" />
+    <Compile Include="Validadores\ValidadorRubro.cs" />
+    <Compile Include="Validadores\ValidadorRutaDeVenta.cs" />
+    <Compile Include="Validadores\ValidadorSector.cs" />
+    <Compile Include="Validadores\ValidadorSKU.cs" />
+    <Compile Include="Validadores\ValidadorSubfamilia.cs" />
+    <Compile Include="Validadores\ValidadorSubsector.cs" />
+    <Compile Include="Validadores\ValidadorTarjetaClienteMayorista.cs" />
+    <Compile Include="Validadores\ValidadorTarjetaMayoristaItem.cs" />
+    <Compile Include="Validadores\ValidadorZonaGeografica.cs" />
+    <Compile Include="Validadores\ValidadorZonaLogistica.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Inteldev.Fixius.Servicios.DTO.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

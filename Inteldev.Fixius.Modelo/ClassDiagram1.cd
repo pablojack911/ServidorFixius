@@ -1,0 +1,1021 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Area">
+    <Position X="84" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Area.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Articulo">
+    <Position X="103.75" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gABABBABCAIQRgABABBAAAgFEAAKQAEAogAIAQAAKEg=</HashCode>
+      <FileName>Articulos\Articulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.ArticuloCompuesto">
+    <Position X="135.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\ArticuloCompuesto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Caracteristica">
+    <Position X="223.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Caracteristica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Categoria">
+    <Position X="251" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Clase">
+    <Position X="108.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Clase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.CodigoDun">
+    <Position X="287.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAASAAAAAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Articulos\CodigoDun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.CodigoEan">
+    <Position X="300.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAASAAAAAAAAAAAggAAAAAgAAAAA=</HashCode>
+      <FileName>Articulos\CodigoEan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.DatosOldArticulo">
+    <Position X="343" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAApAgKWAABgBQAAAABBEAkBAAAggAAgBCEACDAAg=</HashCode>
+      <FileName>Articulos\DatosOldArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.DatosOldEnvases">
+    <Position X="303.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Articulos\DatosOldEnvases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Division">
+    <Position X="110.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Divicion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Empaque">
+    <Position X="138" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Empaque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Envase">
+    <Position X="171.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Envase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Familia">
+    <Position X="198.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Articulos\Familia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Grupo">
+    <Position X="253.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Grupo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Linea">
+    <Position X="256.5" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAIAEAAEAAIBAhCEAgAAAAIAAAAkAABAAAAQAAg=</HashCode>
+      <FileName>Articulos\Linea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Marca">
+    <Position X="141.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\Marca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.ObservacionArticulo">
+    <Position X="3.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\ObservacionArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Rubro">
+    <Position X="143.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAIAABAEAgAAAAIAAAAAAAAAAIAQAAA=</HashCode>
+      <FileName>Articulos\Rubro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Sector">
+    <Position X="174.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAA=</HashCode>
+      <FileName>Articulos\Sector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.SKU">
+    <Position X="201.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\SKU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Subfamilia">
+    <Position X="225.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAA=</HashCode>
+      <FileName>Articulos\Subfamilia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.Subsector">
+    <Position X="260.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Articulos\Subsector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Articulos.TasasDeIva">
+    <Position X="112.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\TasasDeIva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.Canal">
+    <Position X="203.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Canal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.CargosDeFuerzaDeVenta">
+    <Position X="234" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CargosDeFuerzaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.Cliente">
+    <Position X="48" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BJkISAgQEDAAACMQERAEAAAACAIDAAAWQAAAAgAAAwg=</HashCode>
+      <FileName>Clientes\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.CondicionDePagoCliente">
+    <Position X="115.25" Y="5.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.ConfiguraCredito">
+    <Position X="328.75" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAEAAAAAABBAAQQAAAIAAAACEoAgCAAAAAA=</HashCode>
+      <FileName>Clientes\ConfiguraCredito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.DatosOldCliente">
+    <Position X="272" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EBIEAAAAAACBAAAEACAAAAAEMgSBAUgAAgCASBBAAFI=</HashCode>
+      <FileName>Clientes\DatosOldCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.DatosOldCondicionDePagoCliente">
+    <Position X="290.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Clientes\DatosOldCondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.DatosOldRutaDeVenta">
+    <Position X="346.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAgAAAAAAAABAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\DatosOldRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.DiasDeSemana" Collapsed="true">
+    <Position X="357.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACAAQAAABAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Clientes\DiasDeSemana.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.DocumentoVenta">
+    <Position X="29.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\DocumentoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.GeoRegionDeVenta">
+    <Position X="238.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\GeoRegionDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.GrupoCliente">
+    <Position X="53" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Clientes\GrupoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.NotaDeDebitoDeVenta">
+    <Position X="26.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\NotaDeDebitoDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.ObservacionCliente">
+    <Position X="305.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Clientes\ObservacionCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.Ramo">
+    <Position X="227.75" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Ramo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.Region">
+    <Position X="263" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.RegionDeVenta">
+    <Position X="56" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\RegionDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.RutaDeVenta">
+    <Position X="153" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAQACAAAAAAAAABACBAGAEAAAgRAAAABACA=</HashCode>
+      <FileName>Clientes\RutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.TarjetaClienteMayorista">
+    <Position X="59.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAEAAAQAAAJAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\TarjetaClienteMayorista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Clientes.TarjetaMayoristaItem">
+    <Position X="86.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAgAA=</HashCode>
+      <FileName>Clientes\TarjetaMayoristaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.ConfiguraEmpresa">
+    <Position X="156.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAQ=</HashCode>
+      <FileName>ConfiguraEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Contexto">
+    <Position X="177" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contexto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.RelacionEmpresaEntidad">
+    <Position X="89.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RelacionEmpresaEntidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Contabilidad.ReferenciaContable">
+    <Position X="240.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAgAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contabilidad\ReferenciaContable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Financiero.ConceptoDeMovimiento">
+    <Position X="244.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Financiero\ConceptoDeMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Logistica.ZonaGeografica">
+    <Position X="179.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAgA=</HashCode>
+      <FileName>Logistica\ZonaGeografica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.CambioDePreciosDeVenta">
+    <Position X="183.25" Y="5.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAg=</HashCode>
+      <FileName>Precios\CambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.Descuento">
+    <Position X="276" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\Descuento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.DescuentosPorLista">
+    <Position X="189" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\DescuentosPorLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.Folder">
+    <Position X="231.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\Folder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.HabilitaLista">
+    <Position X="92.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABCAAIAAAEAAAAAAAAAAAAAAAEBAAAABAAAASAAQAAA=</HashCode>
+      <FileName>Precios\HabilitaLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.ItemCambioDePrecioDeVenta">
+    <Position X="349.5" Y="3" Width="4" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAEAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\ItemCambioDePrecioDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.ItemDescuentoPorLista">
+    <Position X="278.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAABABGAAAQgAAEAAAAAAAAAAAAAEQIAAIAQAACEA=</HashCode>
+      <FileName>Precios\ItemDescuentoPorLista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.ItemListaDePrecioDeVenta">
+    <Position X="308.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAABABGAAAQgAAEAAAAAAAAAAAAAEAIAAIAQAACEA=</HashCode>
+      <FileName>Precios\ItemListaDePrecioDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.ListaDePreciosDeVenta">
+    <Position X="120.75" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Precios\ListaDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Precios.SubItemCambioDePrecioDeVenta">
+    <Position X="332.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Precios\SubItemCambioDePrecioDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Cobrador">
+    <Position X="45.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Cobrador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.DatosOldPreventa">
+    <Position X="314.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAA=</HashCode>
+      <FileName>Preventa\DatosOldPreventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.DetallePedido">
+    <Position X="265.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABEQAAEAEEAAAAAAAAAAAAAAAEBAAAAQAAAAQAAAAAA=</HashCode>
+      <FileName>Preventa\DetallePedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Jefe">
+    <Position X="33.75" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Jefe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Pedido">
+    <Position X="124.75" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAABCAAAAAAAQQAAAAIAAAAAAAgAA=</HashCode>
+      <FileName>Preventa\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.PosicionGPSPreventa">
+    <Position X="158.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAIAAAAAAAgAA=</HashCode>
+      <FileName>Preventa\PosicionGPSPreventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Preventa">
+    <Position X="39.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABAEQAAAAAA=</HashCode>
+      <FileName>Preventa\Preventa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Preventista">
+    <Position X="37.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Preventista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Supervisor">
+    <Position X="40" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Supervisor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Preventa.Vendedor">
+    <Position X="43.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Preventa\Vendedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Aplicacion">
+    <Position X="63" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Aplicacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ColorColumnaPlantilla">
+    <Position X="205.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ColorColumnaPlantilla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Columna">
+    <Position X="316.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAQAAA=</HashCode>
+      <FileName>Proveedores\Columna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.CondicionDePago">
+    <Position X="96.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAABAAABAAAA=</HashCode>
+      <FileName>Proveedores\CondicionDePago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DatosOldProveedor">
+    <Position X="336.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAEQEAEAAACAAAAAAAAQIEAAAAAAAEAAQ=</HashCode>
+      <FileName>Proveedores\DatosOldProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DetalleDataGridBascs&lt;TipoColumna&gt;">
+    <Position X="293.75" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\DetalleDataGridBascs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DetalleDevolucionMercaderia">
+    <Position X="311.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\DetalleDevolucionMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DevolucionDeMercaderia">
+    <Position X="66.75" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAQIAA=</HashCode>
+      <FileName>Proveedores\DevolucionDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DocumentoCompra">
+    <Position X="21.75" Y="11.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACgCwBAAIAACMAAgAAAAAABACAEAAAAAAAAQA=</HashCode>
+      <FileName>Proveedores\DocumentoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.DocumentoProveedor">
+    <Position X="21.25" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\DocumentoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Entrega">
+    <Position X="161.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Proveedores\Entrega.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ItemsConceptos">
+    <Position X="339.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAAAAABAAAAAAAAAAAAAAAAAEAAAIAQ=</HashCode>
+      <FileName>Proveedores\ItemsConceptos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ListaDePrecios">
+    <Position X="71" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAABAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ListaDePrecios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ListaDePreciosColumna">
+    <Position X="354.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ListaDePreciosColumna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ListaDePreciosDetalle">
+    <Position X="14" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAEEEAAICAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Proveedores\ListaDePreciosDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Motivo">
+    <Position X="164" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Motivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.NotaPendiente">
+    <Position X="23" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\NotaPendiente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Objetivos">
+    <Position X="281.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAGgAAQgAAEAAAQAAABAAAAAEAIAAKAQAACEA=</HashCode>
+      <FileName>Proveedores\Objetivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ObjetivosDeCompra">
+    <Position X="247.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Proveedores\ObjetivosDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ListaDePreciosObservacion">
+    <Position X="0.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ObservacionListaDePrecio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ObservacionProveedor">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ObservacionProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.OrdenDeCompra">
+    <Position X="99.75" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAgBAhAAAAAAACABAAAAADAAQAAAAFAAAAAAAEIAg=</HashCode>
+      <FileName>Proveedores\OrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.OrdenDeCompraDetalle">
+    <Position X="14.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\OrdenDeCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.OrdenDePago">
+    <Position X="18.25" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\OrdenDePago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.PlantillaListaProveedor">
+    <Position X="147.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\PlantillaListaProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ProntoPago">
+    <Position X="319.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ProntoPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Proveedor">
+    <Position X="208.5" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AIEASAAQMAAABBACEDAAAgAECAgCAAAAQAEAAkACBwg=</HashCode>
+      <FileName>Proveedores\Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.ResponsablesCompras">
+    <Position X="128.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\ResponsablesCompras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.TipoProveedor">
+    <Position X="150.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Proveedores.Transportista">
+    <Position X="166.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Transportista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.ConceptoDeMovimientoDeStock">
+    <Position X="75.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Stock\ConceptoDeMovimientoDeStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.DetalleMovimiento">
+    <Position X="322" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\DetalleMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.Ingreso">
+    <Position X="131" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAEAAACAAAAAAAIAABAAAAAAAFAAAAAAEUMAo=</HashCode>
+      <FileName>Stock\Ingreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.ItemIngreso">
+    <Position X="297.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Stock\ItemIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.ItemNoIngresado">
+    <Position X="324.5" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAEAAACAAAACAAIAABAAAAAAAFAAAAAAEUMAo=</HashCode>
+      <FileName>Stock\ItemNoIngresado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.Movimiento">
+    <Position X="193.5" Y="5.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAIEAEE=</HashCode>
+      <FileName>Stock\Movimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Stock.ReciboStock">
+    <Position X="29.5" Y="11.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stock\ReciboStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.Banco">
+    <Position X="168.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.ChequeDeTercero">
+    <Position X="78.75" Y="5.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAgAAAAAEAAAEAAAAAAAgAAAABAAQAAAARCAA=</HashCode>
+      <FileName>Tesoreria\ChequeDeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.ChequePropio">
+    <Position X="284.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAgAAAAAEAAAEAACAAAAgAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Tesoreria\ChequePropio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.ConceptoDeMovimientoBancario">
+    <Position X="268.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\ConceptoDeMovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.CuentaBancaria">
+    <Position X="213.5" Y="5.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAiAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\CuentaBancaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.DestinoChequeBanco">
+    <Position X="5.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\DestinoChequeBanco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.DestinoChequeTercero">
+    <Position X="7.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\DestinoChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.DestinoProveedor">
+    <Position X="8.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Tesoreria\DestinoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.MovimientoBancario">
+    <Position X="218.25" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAwAAAAAEAAAAAAAAAAAAAAAAAIAAAEgABAAA=</HashCode>
+      <FileName>Tesoreria\MovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.MovimientoChequeTercero">
+    <Position X="8.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\MovimientoChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.OrigenChequeTercero">
+    <Position X="11.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\OrigenChequeTercero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Fixius.Modelo.Tesoreria.OrigenChequeTerceroCliente">
+    <Position X="11" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tesoreria\OrigenChequeTerceroCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inteldev.Core.Modelo.EntidadMaestro">
+    <Position X="144" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Modelo.EntidadBase">
+    <Position X="177.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Modelo.Documento">
+    <Position X="24.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Inteldev.Core.Modelo.Auditoria.Observacion">
+    <Position X="1.75" Y="3" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="Inteldev.Fixius.Modelo.Articulos.EnumTasas" Collapsed="true">
+    <Position X="357.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Articulos\EnumTasas.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Articulos.EstadoArticulo" Collapsed="true">
+    <Position X="359" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAI=</HashCode>
+      <FileName>Articulos\EstadoArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Articulos.UnidadDeMedida" Collapsed="true">
+    <Position X="362.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAIEAAAAgAAAAAEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Articulos\UnidadDeMedida.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Clientes.ModoDePago" Collapsed="true">
+    <Position X="362.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\CondicionDePagoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Clientes.AceptaPedidos" Collapsed="true">
+    <Position X="357.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Clientes\DatosOldRutaDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Clientes.EstadoCliente" Collapsed="true">
+    <Position X="362.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Clientes\EstadoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Clientes.TipoDocumentoCliente" Collapsed="true">
+    <Position X="364.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAEAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clientes\TipoDocumentoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Fiscal.CondicionAnteIIBB" Collapsed="true">
+    <Position X="362.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Fiscal\CondicionAnteIIBB.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Fiscal.CondicionAnteIVA" Collapsed="true">
+    <Position X="364.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Fiscal\CondicionAnteIVA.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Precios.EstadoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="360.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>Precios\EstadoCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Precios.TipoCambioDePreciosDeVenta" Collapsed="true">
+    <Position X="364.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Precios\TipoCambioDePreciosDeVenta.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Preventa.TipoPedido" Collapsed="true">
+    <Position X="360.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Preventa\TipoPedido.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.EstadoOrdenDeCompra" Collapsed="true">
+    <Position X="357.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Proveedores\EstadoOrdenDeCompra.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.EstadoProveedor" Collapsed="true">
+    <Position X="359" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>Proveedores\EstadoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.FormaDePago" Collapsed="true">
+    <Position X="360.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\FormaDePago.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.aplicableEnum" Collapsed="true">
+    <Position X="360.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Proveedores\Objetivos.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.TipoColumna" Collapsed="true">
+    <Position X="357.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAQABEAAICgAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoColumna.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.TipoComprobante" Collapsed="true">
+    <Position X="359" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoComprobante.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.TipoConcepto" Collapsed="true">
+    <Position X="360.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAEAAAAAAAAAIQAAAAAAAAAAQAACAACAAAAA=</HashCode>
+      <FileName>Proveedores\TipoConcepto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.TipoDocumento" Collapsed="true">
+    <Position X="362.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAAAAAIAAAAAAAAAoAAASAAAA=</HashCode>
+      <FileName>Proveedores\TipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Proveedores.TipoOrden" Collapsed="true">
+    <Position X="359" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proveedores\TipoOrden.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Stock.EstadoIngresoDeMercaderia" Collapsed="true">
+    <Position X="364.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Stock\EstadoIngresoDeMercaderia.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Stock.TipoMovimiento" Collapsed="true">
+    <Position X="357.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAEAAAAA=</HashCode>
+      <FileName>Stock\TipoMovimiento.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Inteldev.Fixius.Modelo.Tesoreria.Afecta" Collapsed="true">
+    <Position X="359" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Tesoreria\ConceptoDeMovimientoBancario.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
